@@ -190,5 +190,18 @@ color: white;
 
 .nosotros-body p{
   font-weight: 200;
-  
+
+}
+
+/*footer*/
+
+.bg-footer{
+  background-color: #423931;
+  color: white;
+}
+
+.bg-footer p{
+  margin: 0;
+  padding: 1em 0;
+  text-align: center;
 }
