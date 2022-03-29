@@ -28,28 +28,28 @@ html {
 }
 
 .btn-primary {
-  color: white;
-  background-color: #264653;
+  color:white ;
+  background-color: #0F2620;
 }
 
 .btn-secondary {
-  color: white;
-  background-color: #2a9d8f;
+  color:white;
+  background-color: #7BA69A;
 }
 
 .btn-danger {
-  color: white;
-  background-color: #e76f51;
+  color:white;
+  background-color: #A6444C;
 }
 
-.btn-info {
-  color: black;
-  background-color: #e9c46a;
+.btn-light {
+  color:black;
+  background-color: #DDF2CE;
 }
 
 .btn-dark {
-  color: black;
-  background-color: #f4a261;
+  color:white;
+  background-color: #423931;
 }
 
 
@@ -108,15 +108,19 @@ html {
   border-radius: 0.5em;
 }
 
+/*main*/
+
+
 
 /*Card*/
 
 .card {
-  width: 300px;
-  background-color: #2a9d8f;
+  
+  background-color: #A6444C;
   color: white;
   overflow: hidden;
   border-radius: 0.5em;
+  margin-bottom: 1em;
 }
 
 .card-img {
