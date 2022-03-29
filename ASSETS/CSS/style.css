@@ -1,9 +1,11 @@
 html {
     box-sizing: border-box;
   }
+
   *, *:before, *:after {
     box-sizing: inherit;
   }
+
   body{
     font-family: 'Raleway', sans-serif;
   }
@@ -15,6 +17,42 @@ html {
   margin-left: auto;
   margin-right: auto;
 }
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 0.5em;
+  margin: 0 0.1em;
+  border-radius: 0.5em;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #264653;
+}
+
+.btn-secondary {
+  color: white;
+  background-color: #2a9d8f;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #e76f51;
+}
+
+.btn-info {
+  color: black;
+  background-color: #e9c46a;
+}
+
+.btn-dark {
+  color: black;
+  background-color: #f4a261;
+}
+
+
 
 .bg-header{
   background-image: url('../IMAGES/bg-header-min.jpg');
@@ -73,3 +111,28 @@ html {
 
 /*Card*/
 
+.card {
+  width: 300px;
+  background-color: #2a9d8f;
+  color: white;
+  overflow: hidden;
+  border-radius: 0.5em;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card-body {
+  padding: 1em;
+}
+
+.card-body h5 {
+  font-size: 1.5rem;
+  margin: 1em 0;
+  font-weight: 500;
+}
+
+.card-body p {
+  font-weight: 200;
+}
