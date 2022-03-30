@@ -136,6 +136,12 @@ html {
   text-transform: uppercase;
 }
 
+@media(min-width:769px){
+  .tienda{
+    display: flex;
+  }
+}
+
 /*Card*/
 
 .card {
